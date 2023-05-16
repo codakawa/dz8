@@ -1,0 +1,657 @@
+.main
+    height: 100vh
+    background-image: url("../images/image-main.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top center
+    text-align: center
+    color: #ffffff
+    padding-top: 180px
+    @media (max-width: 1040px)
+        margin-bottom: 50px
+    @media (max-width: 915px)
+        padding-top: 59px
+        background: #ECF4FF
+        padding-bottom: 60px
+        height: inherit
+
+    h1
+        font-size: 56px
+        line-height: 73px
+        @media (max-width: 915px)
+            color: #222222
+            font-size: 40px
+            line-height: 57px
+        @media (max-width: 504px)
+            font-size: 25px
+            line-height: 33px
+
+    p
+        font-size: 16px
+        line-height: 155%
+        width: 867px
+        margin: 24px auto 45px
+        @media (max-width: 915px)
+            width: auto
+            color: #222222
+            margin-bottom: 46px
+
+.start__course
+    font-weight: 500
+    font-size: 16px
+    line-height: 24px
+    text-align: center
+    color: #FFFFFF
+    text-decoration: none
+    padding: 11px 30px
+    background-color: #086CF9
+    border-radius: 4px
+    @media (max-width: 915px)
+        padding: 16px 30px
+
+.info
+    margin-top: -50px
+    @media (max-width: 915px)
+        margin: 0
+    &__inner
+        display: flex
+        background-color: #fff
+        padding: 56px 88px
+        justify-content: space-between
+        box-shadow: 0 11px 35px rgba(0, 0, 0, 0.08)
+        border-radius: 4px
+        @media (max-width: 915px)
+            box-shadow: none
+            border-radius: 0
+            flex-direction: row
+            flex-wrap: wrap
+            padding: 60px 0
+            justify-content: center
+            align-items: center
+            gap: 60px
+        @media (max-width: 600px)
+            flex-direction: column
+            flex-wrap: nowrap
+    &__item
+        display: flex
+        gap: 24px
+        span
+            font-weight: 700
+            font-size: 36px
+            line-height: 47px
+            color: #222222
+        p
+            margin-top: 8px
+            font-size: 16px
+            line-height: 155%
+            color: #086CF9
+            white-space: nowrap
+.course__inner
+    margin: 140px 0 0
+    display: flex
+    @media (max-width: 915px)
+        margin: 0
+        flex-direction: column
+.course__info
+    width: 519px
+    @media (max-width: 915px)
+        margin: 0 auto
+        width: auto
+    h2
+        font-weight: 700
+        font-size: 48px
+        line-height: 62px
+        color: #222222
+        width: 519px
+        @media (max-width: 1223px)
+            font-size: 36px
+            line-height: 50px
+            text-align: center
+            width: auto
+        @media (max-width: 800px)
+            font-size: 22px
+            line-height: 29px
+            width: auto
+    p
+        width: 478px
+        margin: 24px 0 16px
+        font-size: 16px
+        line-height: 155%
+        color: #555555
+        @media (max-width: 915px)
+            width: auto
+            font-size: 14px
+            line-height: 22px
+            text-align: center
+    span
+        display: block
+        width: 489px
+        font-size: 20px
+        line-height: 28px
+        color: #333333
+        margin-bottom: 50px
+        @media (max-width: 915px)
+            text-align: center
+            width: auto
+            font-size: 16px
+            line-height: 28px
+    a
+        font-size: 16px
+        line-height: 24px
+        @media (max-width: 915px)
+            display: block
+            width: 149px
+            margin: 32px auto 0
+.course__image__mobile
+    width: 100%
+    display: none
+    @media (max-width: 915px)
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto 30px
+        width: 360px
+        height: 244px
+        background-image: url("../images/image-course_mob.jpg")
+        @media (max-width: 383px)
+            margin-left: -10px
+        @media (max-width: 365px)
+            margin-left: -20px
+.play__button__mobile
+    display: none
+    @media (max-width: 915px)
+        display: block
+        background-color: #fff
+        padding: 8px 12px
+        border-radius: 50%
+.course__image
+    background-image: url("../images/image-courseImage.jpg")
+    width: 100%
+    height: 433px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 0 0 0 38px
+    background-repeat: no-repeat
+    @media (max-width: 915px)
+        display: none
+        width: 1px
+        height: 1px
+.work
+    margin-top: 128px
+    @media (max-width: 915px)
+        margin-top: 60px
+        margin-bottom: 34px
+    &__header
+        width: 423px
+        margin: 0 auto 48px
+        @media (max-width: 915px)
+            width: auto
+            margin-bottom: 12px
+        h2
+            margin: 0 0 12px
+            text-align: center
+            font-weight: 700
+            font-size: 48px
+            line-height: 62px
+            color: #222222
+            @media (max-width: 1223px)
+                  font-size: 36px
+                  line-height: 50px
+                  text-align: center
+                  width: auto
+            @media (max-width: 699px)
+                  font-size: 22px
+                  line-height: 29px
+                  width: auto
+        p
+            font-size: 16px
+            line-height: 155%
+            text-align: center
+            color: #555555
+            @media (max-width: 915px)
+                font-size: 14px
+                line-height: 22px
+    &_block_header
+        font-weight: 700
+        font-size: 24px
+        line-height: 31px
+        color: #222222
+        display: flex
+        justify-content: center
+        margin: 24px 0 16px
+        @media  (max-width: 915px)
+            font-size: 16px
+            line-height: 21px
+
+    &_block_paragraph
+        line-height: 155%
+        text-align: center
+        color: #555555
+        @media (max-width: 915px)
+            font-size: 12px
+            line-height: 19px
+    &_block_img
+        display: block
+        margin: 0 auto
+    &__info_block
+        width: 248px
+        @media (max-width: 915px)
+            margin: 0 auto
+            padding: 15px 18px
+            border-radius: 8px
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08)
+
+    &__info
+        display: flex
+        justify-content: space-between
+        @media (max-width: 1016px)
+            flex-wrap: wrap
+            justify-content: center
+            align-items: center
+            flex-direction: row
+            gap: 30px
+        @media (max-width: 635px)
+            flex-direction: column
+            padding: 23px 35px
+.online
+    margin-top: 128px
+    background-color: #ECF4FF
+    @media (max-width: 915px)
+        margin-top: 0
+        background-color: #fff
+    &__inner
+        padding-top: 60px
+        padding-bottom: 75px
+        @media (max-width: 915px)
+            padding-top: 0
+        & > h2
+            margin: 0 auto 12px
+            width: 674px
+            text-align: center
+            @media (max-width: 1223px)
+                font-size: 36px
+                line-height: 50px
+                text-align: center
+                width: auto
+            @media (max-width: 699px)
+                font-size: 22px
+                line-height: 29px
+                width: auto
+        & > p
+            font-size: 16px
+            line-height: 155%
+            margin: 0 auto 48px
+            width: 674px
+            text-align: center
+            @media (max-width: 915px)
+                line-height: 25px
+                width: auto
+                margin-bottom: 40px
+    &__block_info
+        width: 368px
+        padding: 24px
+        background-color: #ffffff
+        border-radius: 6px
+        @media (max-width: 915px)
+            border-radius: 6px
+            border: 2px solid #E9E8E8
+            margin: 0 auto
+            width: 320px
+            padding: 15px
+        & > img
+            padding-bottom: 24px
+            @media (max-width: 915px)
+                width: 290px
+                height: 208px
+    &__info_blocks
+        display: flex
+        justify-content: space-between
+        flex-basis: 82px
+    &__info_block
+        display: flex
+        justify-content: center
+        align-items: center
+    &__course__button
+        text-align: center
+    &__button
+        padding: 16px 32px
+        background-color: #086CF9
+        border-radius: 6px
+        color: #ffffff
+        text-decoration: none
+    &__block
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        margin-bottom: 48px
+        gap: 30px 24px
+        &__description
+            line-height: 155%
+            color: #555555
+.block__info__info
+    display: flex
+    justify-content: space-between
+    align-items: center
+    text-align: center
+    margin-bottom: 24px
+    span
+        font-size: 16px
+        line-height: 155%
+        color: #555555
+        margin: auto
+.block__info_divide__line
+    height: 1px
+    width: 320px
+    border-bottom: 1px solid #E9E8E8
+    margin-bottom: 20px
+    @media (max-width: 915px)
+        width: 290px
+.block__infoprice
+    display: flex
+    justify-content: space-between
+    padding-bottom: 18px
+    h3
+        font-weight: 700
+        font-size: 24px
+        line-height: 31px
+        color: #333333
+        @media (max-width: 915px)
+            font-size: 14px
+            line-height: 18px
+    span
+        font-weight: 700
+        font-size: 24px
+        line-height: 31px
+        color: #086CF9
+        @media (max-width: 915px)
+            font-size: 14px
+            line-height: 22px
+
+.events
+    margin-bottom: 128px
+    margin-top: 128px
+    @media (max-width: 915px)
+        margin-bottom: 60px
+        margin-top: 0
+
+    &__inner
+        & > h2
+            text-align: center
+            width: 421px
+            margin: 0 auto 12px
+            @media (max-width: 1223px)
+                font-size: 36px
+                line-height: 50px
+                text-align: center
+                width: auto
+            @media (max-width: 700px)
+                font-size: 22px
+                line-height: 29px
+                width: auto
+        & > p
+            font-size: 16px
+            line-height: 155%
+            text-align: center
+            color: #444444
+            width: 421px
+            margin: 0 auto 48px
+            @media (max-width: 915px)
+                line-height: 25px
+                width: auto
+                margin-bottom: 40px
+    &__blocks
+        display: flex
+        justify-content: space-between
+        @media (max-width: 1223px)
+            flex-direction: row
+            flex-wrap: wrap
+            margin: 0 auto
+            align-items: center
+            justify-content: center
+            gap: 30px
+        @media (max-width: 799px)
+            margin-left: -20px
+            margin-right: -20px
+            flex-direction: column
+
+    &__text__block
+        margin: 24px 24px 32px
+        @media (max-width: 799px)
+            margin: 0 20px
+            padding: 24px 15px 17px
+            border-left: 2px solid #E9E8E8
+            border-bottom: 2px solid #E9E8E8
+            border-right: 2px solid #E9E8E8
+            border-bottom-left-radius: 5px
+            border-bottom-right-radius: 5px
+
+    &__divider
+        width: 28px
+.event__block__info
+    box-shadow: 0 12px 45px rgba(0, 0, 0, 0.08)
+    border-radius: 6px
+    width: 368px
+    @media (max-width: 799px)
+        width: 360px
+        box-shadow: none
+.event__header
+    font-weight: 500
+    font-size: 20px
+    line-height: 26px
+    color: #222222
+    margin-bottom: 20px
+    width: 267px
+    height: 52px
+    @media (max-width: 799px)
+        font-size: 16px
+        line-height: 21px
+.event__time__place
+    display: flex
+    span
+        line-height: 155%
+        color: #555555
+        @media (max-width: 799px)
+            font-size: 12px
+            line-height: 19px
+.event__img
+    margin-right: 8px
+.event__image__main
+    border-top-left-radius: 6px
+    border-top-right-radius: 6px
+    width: 100%
+    @media (max-width: 799px)
+        border-radius: 0
+.event__date
+    width: 65px
+    height: 62px
+    background-color: #086CF9
+    font-weight: 500
+    font-size: 18px
+    line-height: 23px
+    color: #FFFFFF
+    text-align: center
+    padding: 8px 12px
+    border-top-left-radius: 6px
+    position: absolute
+    top: 0
+    left: 0
+    @media (max-width: 799px)
+        border-radius: 0
+        left: 20px
+        top: 0
+.event__main__img
+    position: relative
+    border-radius: 6px
+    @media (max-width: 799px)
+        height: 240px
+
+.menu
+    position: absolute
+    top: 43px
+    left: 50%
+    transform: translate(-50%, -50%)
+    @media (max-width: 915px)
+        width: auto
+        position: static
+        transform: none
+.menu__icon
+    display: none
+    @media (max-width: 915px)
+        display: block
+        position: absolute
+        right: 20px
+        top: 16px
+
+.menu__inner
+    @media (max-width: 915px)
+        height: 47px
+.menu__wide
+    top: 0
+    height: 120px
+    display: flex
+    flex-wrap: nowrap
+    justify-content: space-between
+    @media (max-width: 1233px)
+        justify-content: space-between
+        width: auto
+        margin-right: 0
+    @media (max-width: 1192px)
+        width: auto
+    @media (max-width: 915px)
+        height: 47px
+        position: static
+        display: block
+    span
+        display: flex
+        justify-content: center
+        align-items: center
+        @media (max-width: 915px)
+            color: #222222
+            display: block
+    & > a
+        text-decoration: none
+        @media (max-width: 915px)
+            height: 47px
+            display: block
+.header__menu
+    font-weight: 700
+    font-size: 24px
+    line-height: 31px
+    color: #FFFFFF
+    margin: 43px 0
+    @media (max-width: 915px)
+        padding: 8px 0
+        margin: 0
+.header__list
+    display: flex
+    align-items: center
+    justify-content: center
+    list-style: none
+    margin: 0
+    gap: 0 40px
+    @media (max-width: 1233px)
+        margin: 24px 30px
+        justify-content: center
+        gap: 0 40px
+    @media (max-width: 915px)
+        display: none
+
+.header__info
+    font-size: 16px
+    line-height: 155%
+    color: #ffffff
+    text-decoration: none
+    margin-right: 2px
+    @media (max-width: 1233px)
+        display: flex
+        flex-direction: row
+        gap: 0 8px
+.header__buttons
+    list-style: none
+    display: flex
+    margin: 48px 0
+    width: 180px
+    @media (max-width: 915px)
+        display: none
+    a
+        font-size: 16px
+        line-height: 155%
+        color: #FFFFFF
+        text-decoration: none
+.signin
+    margin-right: 30px
+    @media (max-width: 1233px)
+        margin-right: 15px
+.signup
+    padding: 12px 24px
+    background-color: #086CF9
+    border-radius: 4px
+
+.footer
+    padding: 60px 0 80px
+    background-color: #D3E5FE
+    @media (max-width: 1223px)
+        padding: 60px 0
+    &__inner
+        display: flex
+        @media (max-width: 1223px)
+            flex-wrap: wrap
+            flex-direction: row
+        @media (max-width: 799px)
+            flex-direction: column
+    &__header
+        font-weight: 700
+        font-size: 30px
+        line-height: 39px
+        color: #222222
+        margin-bottom: 24px
+    &__education
+        width: 360px
+        @media (max-width: 1223px)
+            width: 320px
+        p
+            margin-bottom: 32px
+        h4
+            margin-bottom: 24px
+    &__column
+        margin-right: 92px
+        display: flex
+        flex-direction: column
+        flex: 1 0 auto
+        @media (max-width: 1223px)
+            margin-right: 10px
+            margin-bottom: 50px
+    &__paragraph
+        font-size: 16px
+        line-height: 155%
+        color: #555555
+        text-decoration: none
+        vertical-align: middle
+        img
+            margin-right: 8px
+    &__text
+        margin: auto 0
+    &__column__last
+        p
+            margin-bottom: 16px
+.follow__list
+    list-style: none
+    display: flex
+    width: 240px
+    justify-content: space-between
+
+.follow__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 14px
+    background-color: #fff
+    border-radius: 3px
+.links__list
+    list-style: none
+    display: flex
+    flex-direction: column
+    a
+        display: flex
+        margin-bottom: 16px
